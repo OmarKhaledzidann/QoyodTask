@@ -6,7 +6,9 @@
 
 ## Project Structure
 
-~~~
-
-run sas
-~~~
+    - _Base Package_: Contains the base implementation of the PageBase and TestBase.
+    - _io Package_: Contains _**ExcelParser**_ Class which reads Test Data from external _**Excel Sheet**_.
+    - _pages Package_: Contains allocating _Web Elements_ and _basic functions_ for each Web Page found in the website.
+    - _tests Package_: Contains all test cases used for this task.
+    - _Drivers Folder_: Contains all needed Web driver for this task.
+    - _test-output Folder_: Contains report for all test cases **_"ExtentReportResult"_** and Excel File which contains all Test Data _**"Test Data.xlsx"**_
