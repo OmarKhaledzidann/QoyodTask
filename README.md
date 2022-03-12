@@ -14,5 +14,4 @@
     - ***test-output Folder :*** Contains report for all test cases **_"ExtentReportResult"_** and Excel File which contains all Test Data _**"Test Data.xlsx"**_
     
 ## **How To Run The Task**
-        - ***tests Package :*** Contains all test cases used for this task.
-
+- Go to _**tests Package**_
