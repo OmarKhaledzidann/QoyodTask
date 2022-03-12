@@ -20,4 +20,4 @@
 
 ## **Reporting Library**
 
-_**RelevantCode Library**_ is used to generate report for Test Cases.
+_**RelevantCode Library**_ is used to generate reports for Test Cases.
