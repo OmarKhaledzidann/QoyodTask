@@ -15,3 +15,4 @@
     
 ## **How To Run The Task**
 - Go to _**tests Package**_
+- Inside **_UserLoginTest.java Class_**, Right Click and run the test case as _**TestNG**_
