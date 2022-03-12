@@ -6,12 +6,12 @@
 
 - ## **Project Structure**
 
-   - ***base Package*** Contains the base implementation of the PageBase and TestBase.
-   - *io Package* Contains _**ExcelParser**_ Class which reads Test Data from external _**Excel Sheet**_.
-    - _pages Package_: Contains allocating _Web Elements_ and _basic functions_ for each Web Page found in the website.
-    - _tests Package_: Contains all test cases used for this task.
-    - _Drivers Folder_: Contains all needed Web driver for this task.
-    - _test-output Folder_: Contains report for all test cases **_"ExtentReportResult"_** and Excel File which contains all Test Data _**"Test Data.xlsx"**_
+   - ***base Package: *** Contains the base implementation of the PageBase and TestBase.
+   - ***io Package: *** Contains _**ExcelParser**_ Class which reads Test Data from external _**Excel Sheet**_.
+    - ***pages Package :*** Contains allocating _Web Elements_ and _basic functions_ for each Web Page found in the website.
+    - ***tests Package :*** Contains all test cases used for this task.
+    - ***Drivers Folder :*** Contains all needed Web driver for this task.
+    - ***test-output Folder :*** Contains report for all test cases **_"ExtentReportResult"_** and Excel File which contains all Test Data _**"Test Data.xlsx"**_
     
 - ## **TestNG Is used as a Test Runner for Test Cases**
 
