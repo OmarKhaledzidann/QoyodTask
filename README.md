@@ -1,4 +1,4 @@
-# QoyodTask
+# Qoyod Task
 
 ## Description
 
@@ -13,7 +13,7 @@
     - ***Drivers Folder :*** Contains all needed Web driver for this task.
     - ***test-output Folder :*** Contains report for all test cases **_"ExtentReportResult"_** and Excel File which contains all Test Data _**"Test Data.xlsx"**_
     
-- ## **TestNG Is used as a Test Runner for Test Cases**
+## **How To Run The Task**
 
     - *@Test* is used to be able to run test cases.<br />
     - *@Priority* is used to control the arrangment of running test cases.
