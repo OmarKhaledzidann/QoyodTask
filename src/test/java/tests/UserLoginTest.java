@@ -36,17 +36,17 @@ public class UserLoginTest extends TestBase {
 
 	@Test(dependsOnMethods = { "userCanLoginSuccessfully" })
 	public void addProductsToCartSuccessfully() throws InterruptedException {
-		ExtentTest test = report.startTest("ExtentDemo");
+		ExtentTest test = report.startTest("Add Expensive Products in Cart");
 		productsObject = new ProductsPage(driver);
 
 		productsObject.addExpensiveProductsToCart();
-		test.log(LogStatus.PASS, "Navigated to the specified URL");
+		test.log(LogStatus.PASS, "Products added successfully");
 		report.endTest(test);
 	}
 
 	@Test(dependsOnMethods = { "addProductsToCartSuccessfully" })
 	public void proceedToCheckoutPageAndPlaceOrder() throws InterruptedException {
-		ExtentTest test = report.startTest("ExtentDemo2");
+		ExtentTest test = report.startTest("Proceed to Checkout");
 		productsObject = new ProductsPage(driver);
 
 		productsObject.viewMyCartPage();
@@ -65,23 +65,19 @@ public class UserLoginTest extends TestBase {
 //		assertTrue(checkoutOverviewObject.totalPrice.getText().contains("$86.38"));
 		Assert.assertEquals(checkoutOverviewObject.getActualPrice(), checkoutOverviewObject.getTotalPrice());
 		checkoutOverviewObject.finishCheckout();
-		test.log(LogStatus.PASS, "Navigated to the specified URL");
+		test.log(LogStatus.PASS, "Proceeded Successfully");
 		report.endTest(test);
 	}
 
 	@Test(dependsOnMethods = { "proceedToCheckoutPageAndPlaceOrder" })
 	public void validateOrderPlacedSuccessfully() throws InterruptedException {
-		ExtentTest test = report.startTest("ExtentDemo3");
+		ExtentTest test = report.startTest("Validate Placing Order");
 		checkoutCompleteObject = new CheckoutComplete(driver);
-
-//		Thread.sleep(1000);
 
 		assertTrue(checkoutCompleteObject.SuccessfulOrderMessage.getText().contains("THANK YOU"));
 
-//		Thread.sleep(1000);
-
 		checkoutCompleteObject.returnToProductsPage();
-		test.log(LogStatus.PASS, "Navigated to the specified URL");
+		test.log(LogStatus.PASS, "Order Placed Successfully");
 		report.endTest(test);
 	}
 }

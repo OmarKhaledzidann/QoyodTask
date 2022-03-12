@@ -29,17 +29,13 @@ public class ProductsPage extends PageBase {
 		selectitemFromList(sortList, "hilo");
 		clickButton(BackPackBtn);
 
-//		Thread.sleep(500);
-
 		clickButton(JacketBtn);
 
-//		Thread.sleep(500);
 	}
 
 	public void viewMyCartPage() throws InterruptedException {
 		clickButton(ShoppingCartIcon);
 
-//		Thread.sleep(500);
 	}
 
 }

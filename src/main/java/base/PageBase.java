@@ -44,7 +44,5 @@ public class PageBase {
 		Select select = new Select(element);
 		select.selectByValue(value);
 	}
-	/*
-	 * public void scrollToBottom() { jse.executeScript("scrollBy(0,2500)"); }
-	 */
+
 }
