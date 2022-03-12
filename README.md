@@ -4,9 +4,9 @@
 
   This task is about automating basic processes such as: **_Login, Add Items to cart, Validate Total Price & Checkout_** in **SWAGLABS Website**
 
-## Project Structure
+- ## **Project Structure**
 
-    - _Base Package_: Contains the base implementation of the PageBase and TestBase.
+   - *base Package* Contains the base implementation of the PageBase and TestBase.
     - _io Package_: Contains _**ExcelParser**_ Class which reads Test Data from external _**Excel Sheet**_.
     - _pages Package_: Contains allocating _Web Elements_ and _basic functions_ for each Web Page found in the website.
     - _tests Package_: Contains all test cases used for this task.
