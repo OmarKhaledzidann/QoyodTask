@@ -6,7 +6,7 @@
 
 - ## **Project Structure**
 
-    - ***base Package :*** Contains the base implementation of the PageBase and TestBase.
+    - ***base Package :*** Contains the base implementation of the **_PageBase_** and _**TestBase**_.
     - ***io Package :*** Contains _**ExcelParser**_ Class which reads Test Data from external _**Excel Sheet**_.
     - ***pages Package :*** Contains allocating _Web Elements_ and _basic functions_ for each Web Page found in the website.
     - ***tests Package :*** Contains all test cases used for this task.
