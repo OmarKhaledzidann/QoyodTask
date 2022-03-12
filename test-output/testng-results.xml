@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-12T12:40:35 EET" name="Default suite" finished-at="2022-03-12T12:40:36 EET" duration-ms="1389">
+  <suite started-at="2022-03-12T12:51:11 EET" name="Default suite" finished-at="2022-03-12T12:51:13 EET" duration-ms="1431">
     <groups>
     </groups>
-    <test started-at="2022-03-12T12:40:35 EET" name="Default test" finished-at="2022-03-12T12:40:36 EET" duration-ms="1389">
+    <test started-at="2022-03-12T12:51:11 EET" name="Default test" finished-at="2022-03-12T12:51:13 EET" duration-ms="1431">
       <class name="tests.UserLoginTest">
-        <test-method is-config="true" signature="startDrvier()[pri:0, instance:tests.UserLoginTest@54bff557]" started-at="2022-03-12T12:40:29 EET" name="startDrvier" finished-at="2022-03-12T12:40:35 EET" duration-ms="5284" status="PASS">
+        <test-method is-config="true" signature="startDrvier()[pri:0, instance:tests.UserLoginTest@54bff557]" started-at="2022-03-12T12:51:06 EET" name="startDrvier" finished-at="2022-03-12T12:51:11 EET" duration-ms="4884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDrvier -->
-        <test-method signature="userCanLoginSuccessfully()[pri:0, instance:tests.UserLoginTest@54bff557]" started-at="2022-03-12T12:40:35 EET" name="userCanLoginSuccessfully" finished-at="2022-03-12T12:40:35 EET" duration-ms="283" status="PASS">
+        <test-method signature="userCanLoginSuccessfully()[pri:0, instance:tests.UserLoginTest@54bff557]" started-at="2022-03-12T12:51:11 EET" name="userCanLoginSuccessfully" finished-at="2022-03-12T12:51:12 EET" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanLoginSuccessfully -->
-        <test-method signature="addProductsToCartSuccessfully()[pri:0, instance:tests.UserLoginTest@54bff557]" started-at="2022-03-12T12:40:35 EET" name="addProductsToCartSuccessfully" finished-at="2022-03-12T12:40:35 EET" depends-on-methods="tests.UserLoginTest.userCanLoginSuccessfully" duration-ms="244" status="PASS">
+        <test-method signature="addProductsToCartSuccessfully()[pri:0, instance:tests.UserLoginTest@54bff557]" started-at="2022-03-12T12:51:12 EET" name="addProductsToCartSuccessfully" finished-at="2022-03-12T12:51:12 EET" depends-on-methods="tests.UserLoginTest.userCanLoginSuccessfully" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductsToCartSuccessfully -->
-        <test-method signature="proceedToCheckoutPageAndPlaceOrder()[pri:0, instance:tests.UserLoginTest@54bff557]" started-at="2022-03-12T12:40:35 EET" name="proceedToCheckoutPageAndPlaceOrder" finished-at="2022-03-12T12:40:36 EET" depends-on-methods="tests.UserLoginTest.addProductsToCartSuccessfully" duration-ms="751" status="PASS">
+        <test-method signature="proceedToCheckoutPageAndPlaceOrder()[pri:0, instance:tests.UserLoginTest@54bff557]" started-at="2022-03-12T12:51:12 EET" name="proceedToCheckoutPageAndPlaceOrder" finished-at="2022-03-12T12:51:13 EET" depends-on-methods="tests.UserLoginTest.addProductsToCartSuccessfully" duration-ms="695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- proceedToCheckoutPageAndPlaceOrder -->
-        <test-method signature="validateOrderPlacedSuccessfully()[pri:0, instance:tests.UserLoginTest@54bff557]" started-at="2022-03-12T12:40:36 EET" name="validateOrderPlacedSuccessfully" finished-at="2022-03-12T12:40:36 EET" depends-on-methods="tests.UserLoginTest.proceedToCheckoutPageAndPlaceOrder" duration-ms="77" status="PASS">
+        <test-method signature="validateOrderPlacedSuccessfully()[pri:0, instance:tests.UserLoginTest@54bff557]" started-at="2022-03-12T12:51:13 EET" name="validateOrderPlacedSuccessfully" finished-at="2022-03-12T12:51:13 EET" depends-on-methods="tests.UserLoginTest.proceedToCheckoutPageAndPlaceOrder" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateOrderPlacedSuccessfully -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.UserLoginTest@54bff557]" started-at="2022-03-12T12:40:36 EET" name="closeDriver" finished-at="2022-03-12T12:40:36 EET" duration-ms="355" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.UserLoginTest@54bff557]" started-at="2022-03-12T12:51:13 EET" name="closeDriver" finished-at="2022-03-12T12:51:13 EET" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
