@@ -14,7 +14,5 @@
     - ***test-output Folder :*** Contains report for all test cases **_"ExtentReportResult"_** and Excel File which contains all Test Data _**"Test Data.xlsx"**_
     
 ## **How To Run The Task**
-
-    - Go to _**tests Package**_.<br />
-    - *@Priority* is used to control the arrangment of running test cases.
+        - ***tests Package :*** Contains all test cases used for this task.
 
