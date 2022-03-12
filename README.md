@@ -15,6 +15,6 @@
     
 ## **How To Run The Task**
 
-    - *@Test* is used to be able to run test cases.<br />
+    - Go to _**tests Package**_.<br />
     - *@Priority* is used to control the arrangment of running test cases.
 
